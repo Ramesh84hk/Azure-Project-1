@@ -17,4 +17,5 @@ steps:
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'my-artifact'
-    publishLocation: 'Container'
+    publishLocation: 'FilePath'
+    TargetPath: 'C:\agent\artifacts\my-artifact'
